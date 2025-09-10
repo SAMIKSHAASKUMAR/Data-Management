@@ -1,0 +1,3 @@
+	1.	A Five-Layered Business Intelligence Architecture - I found this paper interesting because it breaks down complex BI systems into a simple, five-layer structure. It makes it easier to see how organizations can manage data from the raw sources to the end-user for decision-making. I liked how it tackles real-world challenges like data quality, integration, and accessibility, which are important in making business intelligence effective.
+
+	2.	Big Data Quality: A Data Quality Profiling Model – This is interesting because it addresses the problem of keeping big data accurate and reliable. The model it proposes is practical and systematic, including sampling, profiling, and exploratory checks which interested me to explore more about it
