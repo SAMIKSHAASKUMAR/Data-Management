@@ -13,5 +13,5 @@ steps:
 # Step 2: Read CSV file (for example, just display content)
 - script: |
     echo "Reading CSV file..."
-    cat blob/main/brand-detail-url-etc_0_0_0.csv   # replace with the path to your CSV in repo
+    cat brand-detail-url-etc_0_0_0.csv   # replace with the path to your CSV in repo
   displayName: "Read CSV file from GitHub"
