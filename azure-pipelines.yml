@@ -1,0 +1,17 @@
+trigger:
+  branches:
+    include:
+      - main  # run pipeline on commits to main branch
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+# Step 1: Checkout GitHub repo
+- checkout: self
+
+# Step 2: Read CSV file (for example, just display content)
+- script: |
+    echo "Reading CSV file..."
+    cat blob/main/brand-detail-url-etc_0_0_0.csv   # replace with the path to your CSV in repo
+  displayName: "Read CSV file from GitHub"
